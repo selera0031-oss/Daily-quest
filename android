@@ -1,4 +1,13 @@
-flutter create .
-git add -A
-git commit -m "generate android folder"
-git push
+android/
+ ├── app/
+ │   ├── build.gradle
+ │   └── src/
+ │       └── main/
+ │           ├── AndroidManifest.xml
+ │           ├── java/com/example/daily_quest/MainActivity.java
+ │           └── res/   (ikon, layout, dll)
+ ├── build.gradle
+ ├── gradle.properties
+ ├── gradlew
+ ├── gradlew.bat
+ └── settings.gradle
