@@ -1,0 +1,4 @@
+flutter create .
+git add -A
+git commit -m "generate android folder"
+git push
